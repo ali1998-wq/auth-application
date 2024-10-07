@@ -1,0 +1,42 @@
+.container{
+    .formDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputDiv{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        >input{
+            width: 100%;
+            height: 25px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0 10px;
+        }
+        >textarea{
+            width: 100%;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+    }
+    .selectDiv{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        >select{
+            width: 100%;
+            height: 25px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0 10px;
+        }
+    }
+}

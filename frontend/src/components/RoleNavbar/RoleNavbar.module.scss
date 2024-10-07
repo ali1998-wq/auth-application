@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        column-gap: 30px;
+        padding-right: 50px;
+        .link{
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        >p{
+            cursor: pointer;
+        }
+    }
+}
+
+.notificationDiv{
+    position: relative;
+    .notificationsdiv{
+        position: absolute;
+        top: 30px;
+        width: 200px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 10px;
+        height: 200px;
+        left: -200px;
+        overflow-y: auto;
+    }
+    .notification{
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: #ff0000;
+        color: #fff;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 12px;
+    }
+}

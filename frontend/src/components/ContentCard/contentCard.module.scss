@@ -1,0 +1,43 @@
+.container{
+    width:280px;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    >h1{
+        font-size: 20px;
+        margin: 10px 0;
+        font-weight: 600;
+    }
+    >p:nth-child(2)
+    {
+        font-size: 14px;
+        margin: 10px 0;
+        text-align: justify;
+    }
+    .buttonDiv{
+        display: flex;
+        justify-content: center;
+        column-gap: 40px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        .button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .purchaseButton{
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

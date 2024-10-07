@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    .inner{
+      width: 40%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      padding: 20px;
+      .formDiv{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+      }
+      .inputDiv{
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          >input{
+              width: 100%;
+              height: 25px;
+              margin: 10px 0;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              padding: 0 10px;
+          }
+      }
+      .selectDiv{
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          >select{
+              width: 100%;
+              height: 25px;
+              margin: 10px 0;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              padding: 0 10px;
+          }
+      }
+     
+    }
+  }

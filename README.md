@@ -6,12 +6,12 @@ This application is a role-based content management system built on the MRN stac
 The application utilizes MongoDB as its database to handle user management and content storage effectively. User information, including roles and authentication details, is stored in a dedicated users collection, while published content is managed in a separate content collection. The backend, developed with Node.js, exposes RESTful APIs that facilitate interaction between the frontend and the database, ensuring secure CRUD operations. The React-based frontend provides a dynamic user interface, allowing users to engage with the application according to their roles while maintaining a seamless user experience.
 
 #mongoDb Schemas
-user:  firstName, lastName, email, password, role, status, purchasedContent
-role: name
-content: title, description, body, author, amount, type, permission
-permission: name, content, usersWithAccess, groupsWithAccess
-purchase: user, content, author, purchase date, status, amount
-notifications: authorId, contentId, buyerId, message, isRead
+1) user:  firstName, lastName, email, password, role, status, purchasedContent
+2) role: name
+3) content: title, description, body, author, amount, type, permission
+4) permission: name, content, usersWithAccess, groupsWithAccess
+5) purchase: user, content, author, purchase date, status, amount
+6) notifications: authorId, contentId, buyerId, message, isRead
 
 #Start application
 1) run npm I (forntend + backend)

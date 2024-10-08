@@ -14,13 +14,13 @@ The application utilizes MongoDB as its database to handle user management and c
 6) notifications: authorId, contentId, buyerId, message, isRead
 
 #Start application
-1) run npm I (forntend + backend)
+1) run npm install (forntend + backend)
 2) run npm start (bakcend)
 3) run npm dev (fronted)
 4) .env file is not included
 
 #run-tests
-1) npm test (frontend and backend)
+1) npm run test (frontend and backend)
 
 
  
